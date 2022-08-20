@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pivss"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"></ImageView>
+
+
+    <TextView
+        android:id="@+id/card"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="Greeting Card"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_goneMarginTop="20sp"></TextView>
+
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="NAME"
+        app:layout_constraintTop_toBottomOf="@+id/card"
+        android:layout_marginTop="150sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Create card"
+        android:textSize="20dp"
+        android:id="@+id/buttom"
+        android:backgroundTint="@color/black"
+        android:elevation="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/input"
+
+        android:layout_marginTop="150dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"></Button>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

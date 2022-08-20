@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".card">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/brihda"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAPPY BIRTHDAY"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+
+        android:textStyle="italic|bold"
+        android:textSize="50sp"
+        android:textColor="@color/purple_200"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="100sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="500sp"></TextView>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Happy birthday! I hope all your birthday wishes and dreams come true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="60sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="600sp"
+        android:layout_marginLeft="210sp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Count your life by smiles, not tears. Count your age by friends, not years. Happy birthday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginRight="130sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></TextView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
